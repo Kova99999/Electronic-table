@@ -53,8 +53,7 @@ public class Controller {
             this.Test = Test;
         }
 
-        public database() {
-        }
+        public database() { tables = new ArrayList<>();}
 
         public database(boolean Test) {
             tables = new ArrayList<>();
