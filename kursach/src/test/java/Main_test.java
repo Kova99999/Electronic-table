@@ -1,4 +1,4 @@
-import Electronic_Table.Main;
+import Electronic_Table.Controller;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -7,11 +7,11 @@ import static org.junit.Assert.assertTrue;
 
 public class Main_test {
 
-    private Main.database tableBase;
+    private Controller.database tableBase;
 
     @Before
     public void init(){
-        tableBase = new Main().new database(true);
+        tableBase = new Controller.database(true);
     }
 
     @Test
