@@ -11,7 +11,6 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Date;
 
-
 @WebServlet ({"/table", "/New_Table", "/add", "/show", "/change", "/delete", "/Add_String", "/Add_Column"})
 
 
