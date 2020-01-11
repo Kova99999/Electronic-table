@@ -29,9 +29,9 @@ public class Main_test {
 
     @Test
     public void Test_Name(){
-        tableBase.createNewTable("test", 2, 2, "admin");
+        tableBase.createNewTable("abc", 2, 2, "admin");
         assertEquals("test", tableBase.getTableName(0));
-        tableBase.delete("test");
+        tableBase.delete("abc");
     }
 
     @Test
