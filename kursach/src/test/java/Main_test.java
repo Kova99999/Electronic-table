@@ -30,7 +30,7 @@ public class Main_test {
     @Test
     public void Test_Name(){
         tableBase.createNewTable("abc", 2, 2, "admin");
-        assertEquals("test", tableBase.getTableName(0));
+        assertEquals("abc", tableBase.getTableName(0));
         tableBase.delete("abc");
     }
 
